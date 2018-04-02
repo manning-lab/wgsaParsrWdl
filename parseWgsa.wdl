@@ -1,16 +1,25 @@
 task parse {
-	File anno
-	String label
-	String chr
-	String desired_columns
-	String columns_to_split
-	File script
+	File source_file
+	File config_file
+	String destination
+	String freeze
+	Int chunk_size
 
-	Int? disk = 100
-	Int? mem = 10
+	Int disk 
+	Int memory
 
 	command {
-        	R --vanilla --args ${anno} ${label} ${desired_columns} ${columns_to_split} < ${script}
+		echo "Input files" > parse_out.log
+		echo "WGSA input file : ${source_file}" >> parse_out.log
+		echo "Configuration file : ${config_file}" >> parse_out.log
+		echo "Output file : ${destination}" >> parse_out.log
+		echo "Freeze number : ${freeze}" >> parse_out.log
+		echo "Chunk size: ${chunk_size}" >> parse_out.log
+		echo "memory: ${memory}" >> parse_out.log
+		echo "disk: ${disk}" >> parse_out.log
+		echo "" >> parse_out.log
+		dstat -c -d -m --nocolor 10 1>>parse_out.log &
+    	R --vanilla --args ${source_file} ${config_file} ${destination} ${freeze} ${chunk_size} < ./parseWgsa.R
     }
 
     meta {
@@ -19,33 +28,29 @@ task parse {
     }
 
     runtime {
-    	   docker: "tmajarian/wgsa_parser@sha256:21bf06ce19d87963dfbb34b4e43f7461a8cea5fa5af10f74012c67f57ec428c6"
+    	   docker: "manninglab/wgsaparsrwdl:latest"
 		   disks: "local-disk ${disk} SSD"
-		   memory: "${mem}G"
+		   memory: "${memory}G"
     }
 
     output {
-    	Pair[String, File] anno_out = (chr,"${label}.tsv")
+    	File out_file = "${destination}"
+    	File log_file = "parse_out.log"
     }	
 
 }
 
-workflow wf {
-	Map[String,File] these_chr_anno
-	String this_label
-	String these_cols
-	String these_split
+workflow parseWgsa {
+	File this_source_file
+	File this_config_file
+	String this_destination
+	String this_freeze
+	Int this_chunk_size
 
-	Int? this_disk
-	Int? this_mem
+	Int this_disk
+	Int this_memory
 
-	Array[String] chrs = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22]
-
-	call getScript
-	
-	scatter(pair in these_chr_anno) {
-		call parse {
-				input: anno=pair.right, label="${this_label}_${pair.left}", chr=pair.left, desired_columns=these_cols, columns_to_split=these_split, script=getScript.script, disk=this_disk, mem=this_mem
-		}
+	call parse {
+		input: source_file = this_source_file, config_file = this_config_file, destination = this_destination, freeze = this_freeze, chunk_size = this_chunk_size, disk = this_disk, memory = this_memory
 	}
 }
