@@ -2,7 +2,7 @@ task parse {
 	File source_file
 	File config_file
 	String destination
-	String freeze
+	Int freeze
 	Int chunk_size
 
 	Int disk 
@@ -44,7 +44,7 @@ workflow parseWgsa {
 	File this_source_file
 	File this_config_file
 	String this_destination
-	String this_freeze
+	Int this_freeze
 	Int this_chunk_size
 
 	Int this_disk
