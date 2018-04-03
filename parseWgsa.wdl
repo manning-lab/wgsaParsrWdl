@@ -19,7 +19,7 @@ task parse {
 		echo "disk: ${disk}" >> parse_out.log
 		echo "" >> parse_out.log
 		dstat -c -d -m --nocolor 10 1>>parse_out.log &
-    	R --vanilla --args ${source_file} ${config_file} ${destination} ${freeze} ${chunk_size} < ./parseWgsa.R
+    	R --vanilla --args ${source_file} ${config_file} ${destination} ${freeze} ${chunk_size} < /wgsaParsrWdl/parseWgsa.R
     }
 
     meta {
@@ -28,7 +28,7 @@ task parse {
     }
 
     runtime {
-    	   docker: "manninglab/wgsaparsrwdl:latest"
+    	   docker: "tmajarian/parsewgsa:0.1"
 		   disks: "local-disk ${disk} SSD"
 		   memory: "${memory}G"
     }
