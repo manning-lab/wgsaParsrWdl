@@ -30,7 +30,7 @@ task parse {
     }
 
     runtime {
-    	   docker: "tmajarian/parsewgsa:0.2"
+    	   docker: "manninglab/wgsaparsrwdl:latest"
 		   disks: "local-disk ${disk} SSD"
 		   memory: "${memory}G"
     }
