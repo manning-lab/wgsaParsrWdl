@@ -5,5 +5,6 @@
   "parseWgsa.this_source_file": "test_data/chr1.snplist.1.integrated.first.1000.tsv.gz",
   "parseWgsa.this_memory": 1,
   "parseWgsa.this_freeze": 5,
-  "parseWgsa.this_destination": "test_parse.tsv"
+  "parseWgsa.this_destination": "test_parse.tsv",
+  "parseWgsa.this_dbnsfp_destination": "test_parse_dbnsfp.tsv"
 }
