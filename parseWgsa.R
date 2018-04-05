@@ -25,7 +25,7 @@ if (sum(config$indel) > 0){
 	parse_to_file(source_file = source.file,
               config = config.file,
               destination = destination,
-              dbnsfp_destination = dbnsfp_destination,
+              dbnsfp_destination = dbnsfp.destination,
               freeze = freeze,
               chunk_size = chunk.size,
               verbose = TRUE)
