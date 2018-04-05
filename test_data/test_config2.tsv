@@ -1,0 +1,113 @@
+field	SNV	indel	dbnsfp	sourceGroup	pivotGroup	pivotChar	parseGroup	transformation
+CHROM	FALSE	FALSE	FALSE	1		|	1	
+POS	FALSE	FALSE	FALSE	2		|	1	
+REF	FALSE	FALSE	FALSE	3		|	1	
+ALT	FALSE	FALSE	FALSE	4		|	1	
+SnpEff_ensembl_Effect	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Effect_impact	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Sequence_feature	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Sequence_feature_impact	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Transcript_ID	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Transcript_biotype	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Gene_name	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Gene_ID	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_HGVSc	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_HGVSp	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Protein_position/Protein_len	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_CDS_position/CDS_len	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_cDNA_position/cDNA_len	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Exon_or_intron_rank/total	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Distance_to_feature	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_Warnings	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_LOF/NMD	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_LOF/NMD_gene_name	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_LOF/NMD_gene_ID	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_LOF/NMD_num_transcripts_affected	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_LOF/NMD_percent_transcripts_affected	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_TF_binding_effect	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_TF_name	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_TF_ID	FALSE	FALSE	FALSE	5		|	1	
+SnpEff_ensembl_summary	FALSE	FALSE	FALSE	5		|	1	
+VEP_ensembl_Consequence	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_Transcript_ID	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_Gene_Name	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_Gene_ID	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_Protein_ID	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_CCDS	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_SWISSPROT	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_Codon_Change_or_Distance	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_Amino_Acid_Change	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_HGVSc	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_HGVSp	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_cDNA_position	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_CDS_position	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_Protein_position	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_Exon_or_Intron_Rank	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_STRAND	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_CANONICAL	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_LoF	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_LoF_filter	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_LoF_flags	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_LoF_info	TRUE	FALSE	TRUE	6	1	|	1	
+VEP_ensembl_summary	TRUE	FALSE	TRUE	6		|		
+ANNOVAR_refseq_Effect	FALSE	FALSE	FALSE	7		|	1	
+ANNOVAR_refseq_Transcript_ID	FALSE	FALSE	FALSE	7		|	1	
+ANNOVAR_refseq_Gene_ID	FALSE	FALSE	FALSE	7		|	1	
+ANNOVAR_refseq_Closest_gene(intergenic_only)	FALSE	FALSE	FALSE	7		|	1	
+ANNOVAR_refseq_HGVSc	FALSE	FALSE	FALSE	7		|	1	
+ANNOVAR_refseq_HGVSp	FALSE	FALSE	FALSE	7		|	1	
+ANNOVAR_refseq_Exon_Rank	FALSE	FALSE	FALSE	7		|	1	
+ANNOVAR_refseq_summary	FALSE	FALSE	FALSE	7		|	1	
+SnpEff_refseq_Effect	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Effect_impact	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Sequence_feature	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Sequence_feature_impact	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Transcript_ID	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Transcript_biotype	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Gene_name	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Gene_ID	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_HGVSc	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_HGVSp	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Protein_position/Protein_len	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_CDS_position/CDS_len	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_cDNA_position/cDNA_len	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Exon_or_intron_rank/total	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Distance_to_feature	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_Warnings	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_LOF/NMD	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_LOF/NMD_gene_name	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_LOF/NMD_gene_ID	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_LOF/NMD_num_transcripts_affected	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_LOF/NMD_percent_transcripts_affected	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_TF_binding_effect	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_TF_name	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_TF_ID	FALSE	FALSE	FALSE	8		|	1	
+SnpEff_refseq_summary	FALSE	FALSE	FALSE	8		|	1	
+VEP_refseq_Consequence	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_Transcript_ID	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_Gene_Name	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_Gene_ID	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_Protein_ID(ENSP)	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_Codon_Change_or_Distance	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_Amino_Acid_Change	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_HGVSc	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_HGVSp	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_cDNA_position	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_CDS_position	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_Protein_position	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_Exon_or_Intron_Rank	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_STRAND	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_CANONICAL	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_LoF	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_LoF_filter	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_LoF_flags	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_LoF_info	FALSE	FALSE	FALSE	9		|	1	
+VEP_refseq_summary	FALSE	FALSE	FALSE	9		|	1	
+ANNOVAR_ucsc_Effect	FALSE	FALSE	FALSE	10		|	1	
+ANNOVAR_ucsc_Transcript_ID	FALSE	FALSE	FALSE	10		|	1	
+ANNOVAR_ucsc_Gene_ID	FALSE	FALSE	FALSE	10		|	1	
+ANNOVAR_ucsc_Closest_gene(intergenic_only)	FALSE	FALSE	FALSE	10		|	1	
+ANNOVAR_ucsc_HGVSc	FALSE	FALSE	FALSE	10		|	1	
+ANNOVAR_ucsc_HGVSp	FALSE	FALSE	FALSE	10		|	1	
+ANNOVAR_ucsc_Exon_Rank	FALSE	FALSE	FALSE	10		|	1	
+ANNOVAR_ucsc_summary	FALSE	FALSE	FALSE	10		|	1	

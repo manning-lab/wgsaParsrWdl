@@ -30,7 +30,7 @@ task parse {
     }
 
     runtime {
-    	   docker: "tmajarian/parsewgsa:0.1"
+    	   docker: "tmajarian/parsewgsa:0.2"
 		   disks: "local-disk ${disk} SSD"
 		   memory: "${memory}G"
     }

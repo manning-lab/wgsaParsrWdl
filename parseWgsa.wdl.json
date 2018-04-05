@@ -1,9 +1,9 @@
 {
-  "parseWgsa.this_config_file": "test_data/test_config.tsv",
+  "parseWgsa.this_config_file": "test_data/test_config2.tsv",
   "parseWgsa.this_disk": 1,
   "parseWgsa.this_chunk_size": 10000,
-  "parseWgsa.this_source_file": "test_data/1k_annotation.gz",
+  "parseWgsa.this_source_file": "test_data/chr1.snplist.1.integrated.first.1000.tsv.gz",
   "parseWgsa.this_memory": 1,
-  "parseWgsa.this_freeze": 4,
+  "parseWgsa.this_freeze": 5,
   "parseWgsa.this_destination": "test_parse.tsv"
 }
