@@ -32,7 +32,7 @@ task parse {
     runtime {
     	   docker: "manninglab/wgsaparsrwdl:latest"
 		   disks: "local-disk ${disk} SSD"
-		   memory: "${memory}G"
+		   memory: "${memory} GB"
     }
 
     output {
